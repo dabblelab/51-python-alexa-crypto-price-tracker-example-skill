@@ -1,0 +1,24 @@
+{
+    "SKILL_NAME": "the Dabble Lab crypto currency price tracker template",
+    "DEFAULT_MESSAGE": "Welcome to the Dabble Lab crypto currency price tracker. To check the price of a coin just tell me its name.",
+    "DEFAULT_REPROMPT": "Which coins price would you like to check?",
+    "PRICE_RESPONSE": "The current price of {} is {} dollars.",
+    "PRICE_REPROMPT": "What else would you like to know?",
+    "HELP": [
+      "You can ask me the price of any crypto currency."
+    ],
+    "HELP_REPROMPT": [
+      "To know about the price of any crypto currency, just say, what is the price of currency name."
+    ],
+    "FALLBACK": [
+      "Sorry, I didn't understand that. You can ask me the price of any crypto currency."
+    ],
+    "FALLBACK_REPROMPT": [
+      "To know about the price of any crypto currency, just say, what is the price of currency name."
+    ],
+    "CANCEL_STOP_RESPONSE": [
+      "Goodbye!"
+    ],
+    "ERROR": "Sorry, I wasn't able to handle your last request. Could you say that again?",
+    "ERROR_REPROMPT": "Could you say that again?"
+}

@@ -1,0 +1,359 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "crypto assistant",
+      "intents": [
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "GetCoinPriceIntent",
+          "slots": [
+            {
+              "name": "coinName",
+              "type": "coinName"
+            }
+          ],
+          "samples": [
+            "{coinName}",
+            "{coinName} price",
+            "current price of {coinName}",
+            "give me the price for {coinName}",
+            "what is the current price of {coinName}",
+            "What is the price of {coinName} "
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "id": "BTC",
+              "name": {
+                "value": "Bitcoin"
+              }
+            },
+            {
+              "id": "ETH",
+              "name": {
+                "value": "Ethereum"
+              }
+            },
+            {
+              "id": "USDT",
+              "name": {
+                "value": "Tether"
+              }
+            },
+            {
+              "id": "XRP",
+              "name": {
+                "value": "Ripple"
+              }
+            },
+            {
+              "id": "LTC",
+              "name": {
+                "value": "Litecoin"
+              }
+            },
+            {
+              "id": "ADA",
+              "name": {
+                "value": "Cardano"
+              }
+            },
+            {
+              "id": "DOT",
+              "name": {
+                "value": "Polkadot"
+              }
+            },
+            {
+              "id": "BCH",
+              "name": {
+                "value": "Bitcoin Cash"
+              }
+            },
+            {
+              "id": "XLM",
+              "name": {
+                "value": "Stellar"
+              }
+            },
+            {
+              "id": "LINK",
+              "name": {
+                "value": "Chainlink"
+              }
+            },
+            {
+              "id": "BNB",
+              "name": {
+                "value": "Binance Coin"
+              }
+            },
+            {
+              "id": "USDC",
+              "name": {
+                "value": "USD Coin"
+              }
+            },
+            {
+              "id": "WBTC",
+              "name": {
+                "value": "Wrapped Bitcoin"
+              }
+            },
+            {
+              "id": "BSV",
+              "name": {
+                "value": "Bitcoin SV"
+              }
+            },
+            {
+              "id": "EOS",
+              "name": {
+                "value": "EOS"
+              }
+            },
+            {
+              "id": "XMR",
+              "name": {
+                "value": "Monero"
+              }
+            },
+            {
+              "id": "THETA",
+              "name": {
+                "value": "THETA"
+              }
+            },
+            {
+              "id": "TRX",
+              "name": {
+                "value": "TRON"
+              }
+            },
+            {
+              "id": "XEM",
+              "name": {
+                "value": "NEM"
+              }
+            },
+            {
+              "id": "VET",
+              "name": {
+                "value": "VeChain"
+              }
+            },
+            {
+              "id": "XTZ",
+              "name": {
+                "value": "Tezos"
+              }
+            },
+            {
+              "id": "UNI",
+              "name": {
+                "value": "Uniswap"
+              }
+            },
+            {
+              "id": "CRO",
+              "name": {
+                "value": "Crypto.com Coin"
+              }
+            },
+            {
+              "id": "CEL",
+              "name": {
+                "value": "Celsius"
+              }
+            },
+            {
+              "id": "AAVE",
+              "name": {
+                "value": "Aave"
+              }
+            },
+            {
+              "id": "ATOM",
+              "name": {
+                "value": "Cosmos"
+              }
+            },
+            {
+              "id": "SNX",
+              "name": {
+                "value": "Synthetix"
+              }
+            },
+            {
+              "id": "NEO",
+              "name": {
+                "value": "Neo"
+              }
+            },
+            {
+              "id": "LEO",
+              "name": {
+                "value": "UNUS SED LEO"
+              }
+            },
+            {
+              "id": "DAI",
+              "name": {
+                "value": "Dai"
+              }
+            },
+            {
+              "id": "DOGE",
+              "name": {
+                "value": "Dogecoin"
+              }
+            },
+            {
+              "id": "BUSD",
+              "name": {
+                "value": "Binance USD"
+              }
+            },
+            {
+              "id": "MIOTA",
+              "name": {
+                "value": "IOTA"
+              }
+            },
+            {
+              "id": "HT",
+              "name": {
+                "value": "Huobi Token"
+              }
+            },
+            {
+              "id": "REV",
+              "name": {
+                "value": "Revain"
+              }
+            },
+            {
+              "id": "FIL",
+              "name": {
+                "value": "Filecoin"
+              }
+            },
+            {
+              "id": "DASH",
+              "name": {
+                "value": "Dash"
+              }
+            },
+            {
+              "id": "ZIL",
+              "name": {
+                "value": "Zilliqa"
+              }
+            },
+            {
+              "id": "ETC",
+              "name": {
+                "value": "Ethereum Classic"
+              }
+            },
+            {
+              "id": "MKR",
+              "name": {
+                "value": "Maker"
+              }
+            },
+            {
+              "id": "FTT",
+              "name": {
+                "value": "FTX Token"
+              }
+            },
+            {
+              "id": "COMP",
+              "name": {
+                "value": "Compound"
+              }
+            },
+            {
+              "id": "YFI",
+              "name": {
+                "value": "yearn.finance"
+              }
+            },
+            {
+              "id": "SUSHI",
+              "name": {
+                "value": "SushiSwap"
+              }
+            },
+            {
+              "id": "ZEC",
+              "name": {
+                "value": "Zcash"
+              }
+            },
+            {
+              "id": "WAVES",
+              "name": {
+                "value": "Waves"
+              }
+            },
+            {
+              "id": "DCR",
+              "name": {
+                "value": "Decred"
+              }
+            },
+            {
+              "id": "EGLD",
+              "name": {
+                "value": "Elrond"
+              }
+            },
+            {
+              "id": "KSM",
+              "name": {
+                "value": "Kusama"
+              }
+            },
+            {
+              "id": "ALGO",
+              "name": {
+                "value": "Algorand"
+              }
+            }
+          ],
+          "name": "coinName"
+        }
+      ],
+      "modelConfiguration": {
+        "fallbackIntentSensitivity": {
+          "level": "LOW"
+        }
+      }
+    }
+  },
+  "version": "4"
+}
