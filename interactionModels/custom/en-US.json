@@ -1,7 +1,7 @@
 {
   "interactionModel": {
     "languageModel": {
-      "invocationName": "crypto assistant",
+      "invocationName": "template fifty one",
       "intents": [
         {
           "name": "AMAZON.NavigateHomeIntent",
